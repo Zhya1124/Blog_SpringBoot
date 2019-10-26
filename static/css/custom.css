@@ -1,13 +1,58 @@
 /*上下间距缩小*/
 .cus-padded-tb-mini
  {
-     padding-top: 0.4em !important;
-     padding-bottom: 0.4em !important;
+     padding-top: 0.2em !important;
+     padding-bottom: 0.2em !important;
  }
+.cus-padded-tb-tiny
+{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.cus-padded-tb-small
+{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.cus-padded-tb
+{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.cus-padded-tb-large
+{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.cus-padded-tb-big
+{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.cus-padded-tb-huge
+{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
 .cus-padded-tb-massive
 {
     padding-top: 5em !important;
     padding-bottom: 5em !important;
+}
+.m-padded-mini
+{
+    padding: 0.2em !important;
+}
+.m-padded-tiny
+{
+    padding: 0.3em !important;
+}
+/*text*/
+.m-text
+{
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.8;
 }
 .m-text-thin{
     font-weight: 300 !important;
@@ -18,6 +63,72 @@
 .m-text-lined{
     line-height: 1.8;
 }
+/*opacity*/
 .m-opacity-mini{
     opacity: 0.8 !important;
+}
+.m-opacity-tiny{
+    opacity: 0.6 !important;
+}
+/*display*/
+.m-inline-block
+{
+    display: inline-block !important;
+}
+/*container*/
+.m-container
+{
+    max-width:72em !important;
+    margin:auto !important;/*水平方向居中*/
+}
+/*margin*/
+.m-margin-tb-tiny
+{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.m-margin-top-small
+{
+    margin-top: 0.5em !important;
+}
+.m-margin-top
+{
+    margin-top: 1em !important;
+}
+.m-margin-top-large
+{
+    margin-top: 2em !important;
+}
+/*color*/
+.m-black
+{
+    color:#333 !important;
+}
+/*position*/
+.m-right-top
+{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.m-mobile-show
+{
+    display: none !important;
+}
+/*媒体选择，在XXX条件下执行css*/
+@media screen and (max-width: 768px)
+{
+    .m-mobile-hide
+    {
+        display: none !important;
+    }
+    .m-mobile-show
+    {
+        display: block !important;
+    }
+}
+/*BG*/
+body
+{
+    background: url("../img/email-pattern.png");
 }
